@@ -5,9 +5,9 @@ Customizations for OS X workstations
 
 ### Disable atime
 
-Drop com.custom.noatime.plist in /Library/LaunchDaemons/ and then load it using launchctl.
+Drop com.custom.noatime.plist in /Library/LaunchAgents/ and then load it using launchctl.
 
-```sudo launchctl load -w /Library/LaunchDaemons/com.custom.noatime.plist```
+```sudo launchctl load -w /Library/LaunchAgents/com.custom.noatime.plist```
 
 ### Disable the Sudden Motion Sensor
 
