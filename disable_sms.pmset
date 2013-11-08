@@ -1,0 +1,6 @@
+##
+# Disable the Sudden Motion Sensor
+#
+# After a Macbook is upgraded to an SSD, the sudden motion sensor remains enabled. This disables the sensor.
+
+pmset -a sms 0
