@@ -1,0 +1,8 @@
+##
+# Disable system hibernation
+#
+# System hibernation writes all of the system memory to disk. If the system has a great deal of memory and hibernates
+# often this can mean that many gibibytes get written to the disk. In order to save wear on an SSD, this disables
+# system hibernation. Be wary: if your laptop does not shut down properly when it runs out of power, bad things happen.
+
+pmset -a hibernatemode 0
